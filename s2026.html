@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>COMP 2011 — Spring 2026 Exam to Lecture Map</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, sans-serif; color: #192435; background: #f3f6fa; }
+    body { max-width: 960px; margin: 0 auto; padding: 2rem 1.25rem 4rem; }
+    header, section { background: white; border: 1px solid #dce4ee; border-radius: 12px; padding: 1.25rem 1.5rem; margin: 1rem 0; }
+    h1 { margin: 0 0 .4rem; } h2 { font-size: 1.15rem; margin: 0 0 .5rem; }
+    p { margin: .35rem 0; color: #46566b; } ul { margin: .65rem 0 0; padding-left: 1.35rem; }
+    li { margin: .35rem 0; } a { color: #0759a5; } .meta { font-size: .95rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>COMP 2011 · Spring 2026</h1>
+    <p class="meta">Exam-question map to related C++ lecture slides. Lecture links use the PDF page number in <code>#page=</code>.</p>
+    <p><a href="exam/comp2011_s2026_midterm_questions.pdf">Open the Spring 2026 midterm paper</a></p>
+  </header>
+  <main>
+    <section><h2>Question 1 — C++ operators</h2><p>Apply the operator precedence and associativity table to expressions.</p><ul>
+      <li><a href="lecture/h.basics1.pdf#page=30">arithmetic operators</a>, <a href="lecture/h.basics1.pdf#page=31">increment and decrement</a>, <a href="lecture/h.basics1.pdf#page=34">precedence and associativity</a>, <a href="lecture/h.basics1.pdf#page=35">precedence examples</a>, <a href="lecture/h.basics1.pdf#page=36">associativity examples</a></li>
+    </ul></section>
+    <section><h2>Question 2 — Control flow</h2><p>Trace conditional and iterative behavior, including output for a given input.</p><ul>
+      <li><a href="lecture/h.control1.pdf#page=4">if statement</a>, <a href="lecture/h.control1.pdf#page=6">if/else</a>, <a href="lecture/h.control1.pdf#page=14">nested if statements</a>, <a href="lecture/h.control1.pdf#page=18">while loops</a>, <a href="lecture/h.control1.pdf#page=27">for loops</a></li>
+    </ul></section>
+    <section><h2>Question 3 — Functions and parameter passing</h2><p>Trace reference returns and value/reference arguments in function calls.</p><ul>
+      <li><a href="lecture/h.function.pdf#page=6">function definition syntax</a>, <a href="lecture/h.function.pdf#page=8">function parameters</a>, <a href="lecture/h.function.pdf#page=30">parameter passing</a>, <a href="lecture/h.function.pdf#page=35">pass-by-reference</a>, <a href="lecture/h.function.pdf#page=43">const references</a>, <a href="lecture/h.function.pdf#page=46">reference returns</a></li>
+      <li><a href="lecture/h.control2.pdf#page=18">enum declaration</a></li>
+    </ul></section>
+    <section><h2>Question 4 — Scope</h2><p>Distinguish global, function, block, and shadowed variables.</p><ul>
+      <li><a href="lecture/h.scope.pdf#page=2">scope of an identifier</a>, <a href="lecture/h.scope.pdf#page=4">file scope</a>, <a href="lecture/h.scope.pdf#page=5">function scope</a>, <a href="lecture/h.scope.pdf#page=6">block scope</a>, <a href="lecture/h.scope.pdf#page=8">same-name identifiers</a>, <a href="lecture/h.scope.pdf#page=10">scope resolution example</a></li>
+      <li><a href="lecture/h.function.pdf#page=35">reference parameters</a></li>
+    </ul></section>
+    <section><h2>Question 5 — Arrays, C strings, and printed patterns</h2><p>Trace a pattern-producing program that combines array/string data and loops.</p><ul>
+      <li><a href="lecture/h.basics2.pdf#page=24">1D array syntax</a>, <a href="lecture/h.basics2.pdf#page=25">array indexing</a>, <a href="lecture/h.array.pdf#page=23">C strings</a>, <a href="lecture/h.array.pdf#page=24">null terminator</a>, <a href="lecture/h.array.pdf#page=25">string traversal</a></li>
+      <li><a href="lecture/h.control1.pdf#page=27">for loops</a>, <a href="lecture/h.control2.pdf#page=3">nested loops</a></li>
+    </ul></section>
+    <section><h2>Question 6 — Recursion</h2><p>Write a recursive function that computes a sum while advancing toward a base case.</p><ul>
+      <li><a href="lecture/h.recursion.pdf#page=8">thinking recursively</a>, <a href="lecture/h.recursion.pdf#page=10">recursive functions</a>, <a href="lecture/h.recursion.pdf#page=11">recursive implementation</a>, <a href="lecture/h.recursion.pdf#page=15">termination</a></li>
+    </ul></section>
+    <section><h2>Question 7 — Functions and structs</h2><p>Define record types and functions that create, inspect, or update structured records.</p><ul>
+      <li><a href="lecture/h.struct.pdf#page=3">structs</a>, <a href="lecture/h.struct.pdf#page=4">struct definition</a>, <a href="lecture/h.struct.pdf#page=6">accessing members</a>, <a href="lecture/h.struct.pdf#page=11">nested record definitions</a>, <a href="lecture/h.struct.pdf#page=15">arrays of structures</a>, <a href="lecture/h.struct.pdf#page=18">functions with struct arrays</a></li>
+      <li><a href="lecture/h.function.pdf#page=6">function definitions</a>, <a href="lecture/h.function.pdf#page=35">pass-by-reference</a>, <a href="lecture/h.array.pdf#page=23">C strings in record fields</a></li>
+    </ul></section>
+    <section><h2>Question 8 — Two-dimensional arrays</h2><p>Update a grid using row/column coordinates and iterative traversal.</p><ul>
+      <li><a href="lecture/h.array.pdf#page=13">multidimensional arrays</a>, <a href="lecture/h.array.pdf#page=15">2D array syntax</a>, <a href="lecture/h.array.pdf#page=16">2D array initialization</a>, <a href="lecture/h.array.pdf#page=18">2D array functions</a>, <a href="lecture/h.array.pdf#page=22">2D array storage</a></li>
+      <li><a href="lecture/h.control1.pdf#page=27">loop traversal</a></li>
+    </ul></section>
+  </main>
+</body>
+</html>

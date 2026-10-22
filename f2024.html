@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>COMP 2011 — Fall 2024 Exam to Lecture Map</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, sans-serif; color: #192435; background: #f3f6fa; }
+    body { max-width: 960px; margin: 0 auto; padding: 2rem 1.25rem 4rem; }
+    header, section { background: white; border: 1px solid #dce4ee; border-radius: 12px; padding: 1.25rem 1.5rem; margin: 1rem 0; }
+    h1 { margin: 0 0 .4rem; } h2 { font-size: 1.15rem; margin: 0 0 .5rem; }
+    p { margin: .35rem 0; color: #46566b; } ul { margin: .65rem 0 0; padding-left: 1.35rem; }
+    li { margin: .35rem 0; } a { color: #0759a5; } .meta { font-size: .95rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>COMP 2011 · Fall 2024</h1>
+    <p class="meta">Exam-question map to related C++ lecture slides. Lecture links use the PDF page number in <code>#page=</code>.</p>
+    <p><a href="exam/comp2011_f2024_midterm_questions.pdf">Open the Fall 2024 midterm paper</a></p>
+  </header>
+  <main>
+    <section><h2>Question 1 — C++ operators</h2><p>Evaluate arithmetic, assignment, increment, and mixed-type expressions.</p><ul>
+      <li><a href="lecture/h.basics1.pdf#page=29">assignment operator</a>, <a href="lecture/h.basics1.pdf#page=30">arithmetic operators</a>, <a href="lecture/h.basics1.pdf#page=31">pre- and post-increment</a></li>
+      <li><a href="lecture/h.basics1.pdf#page=34">operator precedence</a>, <a href="lecture/h.basics1.pdf#page=35">precedence examples</a>, <a href="lecture/h.basics2.pdf#page=6">integer and floating-point arithmetic</a></li>
+    </ul></section>
+    <section><h2>Question 2 — Function calls and returns</h2><p>Reason about reference and value parameters, const references, and whether calls compile.</p><ul>
+      <li><a href="lecture/h.function.pdf#page=30">parameter passing overview</a>, <a href="lecture/h.function.pdf#page=31">pass-by-value</a>, <a href="lecture/h.function.pdf#page=33">reference variables</a>, <a href="lecture/h.function.pdf#page=35">pass-by-reference</a></li>
+      <li><a href="lecture/h.function.pdf#page=43">const references</a>, <a href="lecture/h.function.pdf#page=44">const-reference arguments</a>, <a href="lecture/h.function.pdf#page=46">reference returns</a></li>
+    </ul></section>
+    <section><h2>Question 3 — Control flow and switch</h2><p>Rewrite switch behavior with if/else while preserving fall-through and decision logic.</p><ul>
+      <li><a href="lecture/h.control1.pdf#page=4">if statement</a>, <a href="lecture/h.control1.pdf#page=6">if/else</a>, <a href="lecture/h.control1.pdf#page=7">if/else-if</a>, <a href="lecture/h.control1.pdf#page=14">nested if statements</a></li>
+      <li><a href="lecture/h.control2.pdf#page=11">switch statement</a>, <a href="lecture/h.control2.pdf#page=14">shared cases</a>, <a href="lecture/h.control2.pdf#page=16">switch rules</a>, <a href="lecture/h.control2.pdf#page=17">fall-through without break</a></li>
+    </ul></section>
+    <section><h2>Question 4 — Nested loops and patterns</h2><p>Construct a printed pattern using nested iteration.</p><ul>
+      <li><a href="lecture/h.control1.pdf#page=18">while loops</a>, <a href="lecture/h.control1.pdf#page=27">for loops</a>, <a href="lecture/h.control2.pdf#page=3">nested loops</a></li>
+    </ul></section>
+    <section><h2>Question 5 — C strings and character counts</h2><p>Trace character-array logic that compares string contents.</p><ul>
+      <li><a href="lecture/h.array.pdf#page=23">C strings</a>, <a href="lecture/h.array.pdf#page=24">null-terminated character arrays</a>, <a href="lecture/h.array.pdf#page=27">C-string function examples</a></li>
+      <li><a href="lecture/h.array.pdf#page=3">arrays as function arguments</a>, <a href="lecture/h.control1.pdf#page=27">loop traversal</a></li>
+    </ul></section>
+    <section><h2>Question 6 — Two-dimensional arrays</h2><p>Use grid coordinates and array indexing to reason about a 2D layout.</p><ul>
+      <li><a href="lecture/h.array.pdf#page=13">multidimensional arrays</a>, <a href="lecture/h.array.pdf#page=15">2D array syntax</a>, <a href="lecture/h.array.pdf#page=16">2D array initialization</a>, <a href="lecture/h.array.pdf#page=22">2D array storage</a></li>
+    </ul></section>
+    <section><h2>Question 7 — One-dimensional arrays</h2><p>Process array data and follow array indexes in function-based code.</p><ul>
+      <li><a href="lecture/h.basics2.pdf#page=22">array fundamentals</a>, <a href="lecture/h.basics2.pdf#page=24">1D array syntax</a>, <a href="lecture/h.basics2.pdf#page=25">array subscripting</a>, <a href="lecture/h.basics2.pdf#page=26">arrays and loops</a></li>
+      <li><a href="lecture/h.array.pdf#page=3">passing arrays to functions</a>, <a href="lecture/h.array.pdf#page=10">constant arrays</a>, <a href="lecture/h.array.pdf#page=11">preventing array modification</a></li>
+    </ul></section>
+    <section><h2>Question 8 — C-string encryption</h2><p>Transform text stored in character arrays and work with C-string boundaries.</p><ul>
+      <li><a href="lecture/h.array.pdf#page=23">C strings</a>, <a href="lecture/h.array.pdf#page=24">null terminator</a>, <a href="lecture/h.array.pdf#page=25">string traversal</a>, <a href="lecture/h.array.pdf#page=27">C-string functions</a></li>
+      <li><a href="lecture/h.array.pdf#page=30">reading C strings</a>, <a href="lecture/h.control1.pdf#page=27">for-loop traversal</a></li>
+    </ul></section>
+  </main>
+</body>
+</html>

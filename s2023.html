@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>COMP 2011 — Spring 2023 Exam to Lecture Map</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, sans-serif; color: #192435; background: #f3f6fa; }
+    body { max-width: 960px; margin: 0 auto; padding: 2rem 1.25rem 4rem; }
+    header, section { background: white; border: 1px solid #dce4ee; border-radius: 12px; padding: 1.25rem 1.5rem; margin: 1rem 0; }
+    h1 { margin: 0 0 .4rem; } h2 { font-size: 1.15rem; margin: 0 0 .5rem; }
+    p { margin: .35rem 0; color: #46566b; } ul { margin: .65rem 0 0; padding-left: 1.35rem; }
+    li { margin: .35rem 0; } a { color: #0759a5; } .meta { font-size: .95rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>COMP 2011 · Spring 2023</h1>
+    <p class="meta">Exam-question map to related C++ lecture slides. Lecture links use the PDF page number in <code>#page=</code>.</p>
+    <p><a href="exam/comp2011_s2023_midterm_questions.pdf">Open the Spring 2023 midterm paper</a></p>
+  </header>
+  <main>
+    <section><h2>Question 1 — Operator precedence and associativity</h2><p>Use precedence and associativity rules to group expressions correctly.</p><ul>
+      <li><a href="lecture/h.basics1.pdf#page=30">arithmetic operators</a>, <a href="lecture/h.basics1.pdf#page=34">precedence and associativity</a>, <a href="lecture/h.basics1.pdf#page=35">precedence examples</a>, <a href="lecture/h.basics1.pdf#page=36">binary operator associativity</a></li>
+    </ul></section>
+    <section><h2>Question 2 — Reference variables</h2><p>Decide how references and const references affect validity and program behavior.</p><ul>
+      <li><a href="lecture/h.function.pdf#page=33">reference variable syntax</a>, <a href="lecture/h.function.pdf#page=34">reference variable examples</a>, <a href="lecture/h.function.pdf#page=35">pass-by-reference</a>, <a href="lecture/h.function.pdf#page=43">const references</a></li>
+    </ul></section>
+    <section><h2>Question 3 — Parameter passing</h2><p>Trace the effect of alternate function definitions on array elements and caller variables.</p><ul>
+      <li><a href="lecture/h.function.pdf#page=30">parameter passing overview</a>, <a href="lecture/h.function.pdf#page=31">pass-by-value</a>, <a href="lecture/h.function.pdf#page=35">pass-by-reference</a>, <a href="lecture/h.function.pdf#page=41">mixed value/reference parameters</a></li>
+      <li><a href="lecture/h.array.pdf#page=3">passing arrays to functions</a>, <a href="lecture/h.array.pdf#page=6">array function parameters</a></li>
+    </ul></section>
+    <section><h2>Question 4 — Scope</h2><p>Find compile-time errors involving declarations and identifier visibility.</p><ul>
+      <li><a href="lecture/h.scope.pdf#page=2">scope of an identifier</a>, <a href="lecture/h.scope.pdf#page=4">file scope</a>, <a href="lecture/h.scope.pdf#page=5">function scope</a>, <a href="lecture/h.scope.pdf#page=6">block scope</a>, <a href="lecture/h.scope.pdf#page=8">same-name identifiers</a></li>
+    </ul></section>
+    <section><h2>Question 5 — Debugging C++ code</h2><p>Diagnose syntax, type, and function-use errors in short programs.</p><ul>
+      <li><a href="lecture/h.basics1.pdf#page=7">main function</a>, <a href="lecture/h.basics1.pdf#page=15">basic data types</a>, <a href="lecture/h.function.pdf#page=6">function definitions</a>, <a href="lecture/h.function.pdf#page=8">function parameters</a></li>
+      <li><a href="lecture/h.scope.pdf#page=5">function scope</a>, <a href="lecture/h.scope.pdf#page=6">block scope</a></li>
+    </ul></section>
+    <section><h2>Question 6 — C strings</h2><p>Compare strings by inspecting the characters in null-terminated arrays.</p><ul>
+      <li><a href="lecture/h.array.pdf#page=23">C strings</a>, <a href="lecture/h.array.pdf#page=24">null terminator</a>, <a href="lecture/h.array.pdf#page=25">string traversal</a>, <a href="lecture/h.array.pdf#page=27">C-string functions</a></li>
+    </ul></section>
+    <section><h2>Question 7 — Recursion</h2><p>Write a recursive function with an appropriate base case and recursive progress.</p><ul>
+      <li><a href="lecture/h.recursion.pdf#page=8">thinking recursively</a>, <a href="lecture/h.recursion.pdf#page=10">recursive functions</a>, <a href="lecture/h.recursion.pdf#page=11">recursive implementation</a>, <a href="lecture/h.recursion.pdf#page=15">termination</a></li>
+    </ul></section>
+    <section><h2>Question 8 — Arrays</h2><p>Work with array data, indexes, and functions that process sequences.</p><ul>
+      <li><a href="lecture/h.basics2.pdf#page=22">array fundamentals</a>, <a href="lecture/h.basics2.pdf#page=24">1D array syntax</a>, <a href="lecture/h.basics2.pdf#page=25">array subscripting</a>, <a href="lecture/h.basics2.pdf#page=26">arrays and loops</a></li>
+      <li><a href="lecture/h.array.pdf#page=3">passing arrays to functions</a>, <a href="lecture/h.array.pdf#page=7">modifying array elements</a>, <a href="lecture/h.array.pdf#page=13">2D arrays</a></li>
+    </ul></section>
+    <section><h2>Question 9 — Character arrays and functions</h2><p>Produce output from string/character-array processing implemented with functions.</p><ul>
+      <li><a href="lecture/h.array.pdf#page=23">C strings</a>, <a href="lecture/h.array.pdf#page=25">string traversal</a>, <a href="lecture/h.array.pdf#page=27">C-string function examples</a>, <a href="lecture/h.array.pdf#page=29">2D character arrays</a></li>
+      <li><a href="lecture/h.function.pdf#page=6">function definition</a>, <a href="lecture/h.function.pdf#page=30">parameter passing</a></li>
+    </ul></section>
+  </main>
+</body>
+</html>
